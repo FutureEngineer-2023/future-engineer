@@ -1,14 +1,22 @@
 # 隊名
+
 ## 移動性管理 Mobility Management
+
 ### 馬達
 #### 我們選用了幾種馬達，如下:
-### JGA25-371
+### JGA25-371  
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/610JRpcSImL._AC_UF894%2C1000_QL80_.jpg)
+
+
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-08%20163440.png)
 #### 優點: 
 扭矩高、噪音低
 #### 缺點:
 重量大、體積大、價錢高
+
+-----------------------------------------------------------------------------------
 ### LEGO 45503 EV3 Medium Servo Motor 
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/lego-ev3-medium-servo-motor-set-45503-28.jpg)
 
 | 項目   | 數值 | 
 |--------|-------------------------|
@@ -34,5 +42,9 @@
 
 3.限制扭矩：EV3 Medium Servo Motor 的扭矩相對較小，因此在處理大負載或需要高扭矩的應用時可能會有限制。
 
-### 
+
+-----------------------------------------------------------------------------------
+### GA12-N20
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/71k13xG7uzL._SL1200_.jpg)
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/21645312888323_213.jpg)
 
