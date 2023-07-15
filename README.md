@@ -73,14 +73,15 @@
 
 2.限制扭矩輸出：儘管具有相對高的轉矩，GA12-N20 馬達的扭矩輸出仍然有限，不適合需要極高扭矩的應用。
 
+
 -----------------------------------------------------------------------------------
-### 結論:
+# 結論:
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-15%20143202.png)
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-15%20143147.png)
 
 為了使機身更小、更輕，我們選擇了將 ***GA12-N20*** 馬達作為後輪的動力來源。這款馬達完美符合我們的需求，同時也減少了所需的電池數量，從而降低了整體重量。
 
-
+-----------------------------------------------------------------------------------
 
 ## 轉向控制結構 
 **我們列出了兩種方案型比較。**
@@ -119,10 +120,11 @@
 1.遙控車採用的馬達是一般的直流馬達，轉向結構搭配齒條控制，因此無法精準的控制角度。
 
 -----------------------------------------------------------------------------------
-### 結論 
+# 結論 
 由上文分析，我們希望機器能夠保持我們希望他走的方位，因此較注重精準度，因此**第一種方案**相對比較好。因此我們開始設計我們機構。
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E4%BC%BA%E6%9C%8D%E8%BD%89%E6%8E%A5%E9%A0%AD.png)
 
+-----------------------------------------------------------------------------------
 ## 馬達驅動板
 
 ### 1.TB6612FNG
@@ -261,6 +263,7 @@
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-14%20203253.png)
 
+-----------------------------------------------------------------------------------
 ## 底盤設計 
 
 起初我們試著採用**遙控車的底盤**進行改裝，雖然方便省時，但是遙控車的轉向不夠達到我們的要求，也不容易改裝。
@@ -271,7 +274,13 @@
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E5%89%8D%E9%9D%A2.png)
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E5%BE%8C%E9%9D%A2.png)
+### 差速器 
+我們採用樂高的6573的差速器。
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%B7%AE%E9%80%9F%E5%99%A8.png)
 
+### 齒輪 
+我們利用3D繪圖畫了一個16齒的齒輪。
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E9%BD%92%E8%BC%AA.png)
 
 **並且我們還設計了一個蓋子，方便我們在底盤上放置電子元件。**
 
@@ -279,5 +288,6 @@
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E4%B8%8A%E8%A6%96%E5%9C%96.png)
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E4%B8%8B%E8%A6%96%E5%9C%96.png)
 
- ### 成品圖片
-![image]()
+-----------------------------------------------------------------------------------
+## 總結 
+
