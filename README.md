@@ -2,12 +2,27 @@
 
 # 移動性管理 Mobility Management
 
- <img high = 250 width =250 src= "https://img.shields.io/badge/⬇-後輪動力-068DA9" >
+### 為了能夠實現基本的移動，我們的配置是:
+
+> <img high = 100 width =100 src= "https://img.shields.io/badge/後輪動力 - 78C1F3" > 
+> <img high = 130 width =130 src= "https://img.shields.io/badge/轉向控制結構  -9BE8D8" >
+> <img high = 110 width =110 src= "https://img.shields.io/badge/ 馬達驅動板 -E2F6CA" >
+> <img high = 60 width =60 src= "https://img.shields.io/badge/ 底盤 -F8FDCF" >
+ ------------------------------------------------------------------------------------
+ 
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <img high = 250 width =250 src= "https://img.shields.io/badge/⬇-後輪動力- 78C1F3" >
+ 
 
 ## 我們選用了幾種馬達，如下:
  <br>
  <br>
- <img high = 200 width =200 src= "https://img.shields.io/badge/1.JGA25_371-068DA9" >
+ <img high = 200 width =200 src= "https://img.shields.io/badge/1.JGA25_371- 78C1F3" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/JGA25-371%E5%9C%96%E7%89%87.jpg)
 
@@ -25,7 +40,7 @@
 
 -----------------------------------------------------------------------------------
 
- <img high = 500 width =500 src= "https://img.shields.io/badge/2.LEGO 45503 EV3 Medium Servo Motor -068DA9" >
+ <img high = 500 width =500 src= "https://img.shields.io/badge/2.LEGO 45503 EV3 Medium Servo Motor - 78C1F3" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/%E6%A8%82%E9%AB%98%E9%A6%AC%E9%81%94.jpg)
 
@@ -53,7 +68,7 @@
 <br>
 <br>
 
- <img high = 200 width =200 src= "https://img.shields.io/badge/3.GA12 N20 -068DA9" >
+ <img high = 200 width =200 src= "https://img.shields.io/badge/3.GA12 N20 - 78C1F3" >
  
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/G12-N20%E5%9C%96%E7%89%87.jpeg)
 
@@ -69,7 +84,7 @@
 <br>
 <br>
 
- <img high = 350 width =350 src= "https://img.shields.io/badge/⚠結論⚠ -068DA9" >
+ <img high = 350 width =350 src= "https://img.shields.io/badge/⚠結論⚠ - 78C1F3" >
  
 >![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-15%20143202.png)
 >![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-15%20143147.png)
@@ -83,7 +98,7 @@
 <br>
 <br>
 
- <img high = 350 width =350 src= "https://img.shields.io/badge/⬇-轉向控制結構  -A076F9" >
+ <img high = 350 width =350 src= "https://img.shields.io/badge/⬇-轉向控制結構  -9BE8D8" >
 <br>
 <br>
 
@@ -92,7 +107,7 @@
 <br>
 <br>
 
- <img high = 380 width =380 src= "https://img.shields.io/badge/ 1.伺服馬達搭配連桿轉向  -A076F9" >
+ <img high = 380 width =380 src= "https://img.shields.io/badge/ 1.伺服馬達搭配連桿轉向  -9BE8D8" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%BD%89%E5%90%91%E7%B5%90%E6%A7%8B/%E9%80%A3%E6%A1%BF%E8%BD%89%E5%90%91%E7%B5%90%E6%A7%8B%E5%9C%96.png)
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/SG-90.png)
@@ -109,32 +124,33 @@
 <br>
 <br>
 
- <img high = 230 width =230 src= "https://img.shields.io/badge/ 2.遙控車轉向  -A076F9" >
+ <img high = 230 width =230 src= "https://img.shields.io/badge/ 2.遙控車轉向  -9BE8D8" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%BD%89%E5%90%91%E7%B5%90%E6%A7%8B/%E5%B0%BA%E6%A2%9D%E8%BD%89%E5%90%91%E7%B5%90%E6%A7%8B%E5%9C%96.JPG)
-### 優點:
+## 優點:
 >1.成本相對於伺服馬達低。<br>
 >2.不需要自己設計結構。
-### 缺點:
+## 缺點:
 >1.遙控車採用的馬達是一般的直流馬達，轉向結構搭配齒條控制，因此無法精準的控制角度。
->
-
- <img high = 350 width =350 src= "https://img.shields.io/badge/⚠結論⚠ -A076F9" >
+<br>
+ <img high = 350 width =350 src= "https://img.shields.io/badge/⚠結論⚠ -9BE8D8" >
  
-### 由上文分析，我們希望機器能夠保持我們希望他走的方位，因此較注重精準度，因此-***第一種方案***-相對比較好。因此我們開始設計機構。<br>
+## 由上文分析，我們希望機器能夠保持我們希望他走的方位，因此較注重精準度，<br>因此-***第一種方案***-相對比較好。因此我們開始設計機構。<br>
 ### 為了讓我們伺服馬達可以連接樂高於是自己畫了一個。
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E4%BC%BA%E6%9C%8D%E8%BD%89%E6%8E%A5%E9%A0%AD.png)
+### 組裝後⬇️
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%AF%A6%E9%AB%94%E7%85%A7%E7%89%87/%E8%BD%89%E5%90%91%E6%A9%9F%E6%A7%8B%E5%AF%A6%E9%AB%94%E5%9C%96.png)
 
 -----------------------------------------------------------------------------------
 
- <img high = 250 width =250 src= "https://img.shields.io/badge/ ⬇-馬達驅動板 -7A9D54" >
+ <img high = 250 width =250 src= "https://img.shields.io/badge/ ⬇-馬達驅動板 -E2F6CA" >
 <br>
 <br>
  
 ## 我們選用了幾種驅動版，如下:
  <br>
  <br>
- <img high = 200 width =200 src= "https://img.shields.io/badge/ 1.TB6612FNG -7A9D54" >
+ <img high = 200 width =200 src= "https://img.shields.io/badge/ 1.TB6612FNG -E2F6CA" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/MMD-003286.jpg)
 
@@ -143,6 +159,7 @@
 以下是TB6612FNG馬達控制板的一些基本規格和特點：
 -----------------------------------------------------------------------------------------------
 <br>
+
 >1.輸入電壓：5V-13.5V <br>
 >2.馬達驅動電流：最大1.2A（平均）/ 最大3.2A（峰值）<br>
 >3.適用馬達類型：直流馬達<br>
@@ -167,24 +184,26 @@
 >需要外部反向極性保護二極體，以保護芯片免受馬達回饋電壓的損害。<br>
 <br>
 <br>
- <img high = 200 width =200 src= "https://img.shields.io/badge/  2.DRV8833 -7A9D54" >
+ <img high = 200 width =200 src= "https://img.shields.io/badge/  2.DRV8833 -E2F6CA" >
  
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/XRB8z.jpg)
 
 以下是DRV8833馬達控制板的一些基本規格和特點：
 -----------------------------------------------------------------------------------------------
 
->1.輸入電壓：2.7V-10.8V<br>
->2.馬達驅動電流：最大1.2A（平均）/ 最大2.5A（峰值）<br>
->3.適用馬達類型：直流馬達<br>
->4.控制接口：PWM控制信號（用於速度調節）、DIR控制信號（用於轉向控制）<br>
->5.馬達輸出通道：2個（可以同時控制兩個馬達）<br>
->6.過電流保護：內置過電流保護功能<br>
->7.低電壓保護：內置低電壓保護功能<br>
+>1.輸入電壓：2.7V-10.8V。<br>
+>2.馬達驅動電流：最大1.2A（平均）/ 最大2.5A（峰值）。<br>
+>3.適用馬達類型：直流馬達。<br>
+>4.控制接口：PWM控制信號（用於速度調節）、DIR控制信號（用於轉向控制）。<br>
+>5.馬達輸出通道：2個（可以同時控制兩個馬達）。<br>
+>6.過電流保護：內置過電流保護功能。<br>
+>7.低電壓保護：內置低電壓保護功能。<br>
 >8.內部反向極性保護二極體：內置反向極性保護二極體，以防止馬達回饋電壓對芯片造成損害。<br>
->9.尺寸：通常為20mm x 11mm x 3mm<br>
+>9.尺寸：通常為20mm x 11mm x 3mm。<br>
+
 <br>
 <br>
+
 ## 優點：
 >電源電壓範圍適中，適用於一般馬達應用。<br>
 >具備過電流保護和低電壓保護功能，提供額外的安全性。<br>
@@ -197,7 +216,7 @@
 >控制能力有限，無法提供高級的馬達控制功能（如步進馬達控制）。<br>
 >需要外部反向極性保護二極體，以保護芯片免受馬達回饋電壓的損害。<br>
 
- <img high = 200 width =200 src= "https://img.shields.io/badge/ 3. L298N -7A9D54" >
+ <img high = 200 width =200 src= "https://img.shields.io/badge/ 3. L298N -E2F6CA" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/L298N-Motor-Driver-pic2.jpg)
 
@@ -222,6 +241,7 @@
 >3.控制接口多，具備較高的彈性和控制能力。<br>
 >4.可以控制直流馬達和步進馬達，提供更廣泛的應用。<br>
 <br>
+
 ## 缺點：
 
 >1.需要外部電阻和電容來設置PWM頻率和過電流保護閾值。<br>
@@ -229,7 +249,7 @@
 >3.由於較舊的設計，效率較低，可能產生較多的熱量。<br>
 <br>
 <br>
- <img high = 350 width =350 src= "https://img.shields.io/badge/⚠結論⚠ -7A9D54" >
+ <img high = 350 width =350 src= "https://img.shields.io/badge/⚠結論⚠ -E2F6CA" >
 
 ## 由上文分析，我們選用TB6612FNG，
 
@@ -241,7 +261,10 @@
 >4.尺寸和易用性：TB6612FNG的尺寸相對較小，易於安裝。<br>
 >![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-14%20203253.png)
 
-## 底盤設計 
+-----------------------------------------------------------------------------------------------
+<br>
+
+ <img high = 60 width =60 src= "https://img.shields.io/badge/ 底盤設計 -F8FDCF" >
 
 起初我們試著採用**遙控車的底盤**進行改裝，雖然方便省時，但是遙控車的轉向不夠達到我們的要求，也不容易改裝。
 接著我們改用**樂高積木**直接組裝出一台，跟遙控車相比，樂高自由調整度更高，能夠設計出更好的轉向，還可以用內建的馬達進行控制，只可惜組裝完成的體積跟重量太大，導致速度跟敏捷無法有好的效果。
@@ -251,15 +274,15 @@
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E5%89%8D%E9%9D%A2.png)
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E5%BE%8C%E9%9D%A2.png)
-### 差速器 
-我們採用樂高的6573的差速器。
+## 差速器 
+### 我們採用樂高的6573的差速器。
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%B7%AE%E9%80%9F%E5%99%A8.png)
 
-### 齒輪 
-我們利用3D繪圖畫了一個16齒的齒輪。
+## 齒輪 
+### 我們利用3D繪圖畫了一個16齒的齒輪。
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E9%BD%92%E8%BC%AA.png)
 
-**並且我們還設計了一個蓋子，方便我們在底盤上放置電子元件。**
+### 並且我們還設計了一個蓋子，方便我們在底盤上放置電子元件。
 
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E4%B8%8A%E8%A6%96%E5%9C%96.png)
@@ -268,8 +291,39 @@
 -----------------------------------------------------------------------------------
 ## 總結 
 
-| 項目   | 選擇 | 
-|--------|-----|
-|馬達|GA12-N20、SG90 伺服馬達|
-|
-|-------------|
+轉速
+扭矩
+<br>
+<br>
+<br>
+<br>
+
+-----------------------------------------------------------------------------------
+# 電源和感測器管理
+
+## 主機板
+><img high = 100 width =100 src= "https://img.shields.io/badge/主機板 -1D5B79" > 
+## 為了能夠閃躲障礙，我們需要的感應器有，
+><img high = 120 width =120 src= "https://img.shields.io/badge/顏色感應器 -468B97" > 
+><img high = 140 width =140 src= "https://img.shields.io/badge/陀螺儀感應器 -EF6262" > 
+><img high = 120 width =120 src= "https://img.shields.io/badge/視覺感應器 -F3AA60" > 
+---------------------------------------------------------------------------------------
+<br>
+<br>
+<br>
+
+<img high = 200 width =200 src= "https://img.shields.io/badge/主機板 -1D5B79" > 
+<br>
+<img high = 150 width =150 src= "https://img.shields.io/badge/Krduino -1D5B79" > 
+
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%85%B6%E4%BB%96/%E4%B8%BB%E6%A9%9F%E6%9D%BF.jpg)<br>
+
+<br>
+<br>
+<br>
+
+<img high = 240 width =240 src= "https://img.shields.io/badge/顏色感應器 -468B97" > 
+
+<img high = 150 width =150 src= "https://img.shields.io/badge/TCS34725 -468B97" > 
+
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E9%9B%BB%E6%BA%90%E5%92%8C%E6%84%9F%E6%B8%AC%E5%99%A8%E7%AE%A1%E7%90%86/%E9%A1%8F%E8%89%B2%E6%84%9F%E6%87%89%E5%99%A8/%E9%A1%8F%E8%89%B2%E6%84%9F%E6%87%89%E5%99%A8.png)
