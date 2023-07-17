@@ -1,9 +1,14 @@
 # 隊名
 
 # 移動性管理 Mobility Management
-## 後輪動力
-#### 我們選用了幾種馬達，如下:
-* ### JGA25-371
+
+ <img high = 250 width =250 src= "https://img.shields.io/badge/⬇-後輪動力-068DA9" >
+
+## 我們選用了幾種馬達，如下:
+ <br>
+ <br>
+ <img high = 200 width =200 src= "https://img.shields.io/badge/1.JGA25_371-068DA9" >
+
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/JGA25-371%E5%9C%96%E7%89%87.jpg)
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-08%20163440.png)
@@ -19,7 +24,9 @@
 >2.體積和重量：某些馬達可能相對較大且重量較重，這可能在空間有限或重量敏感的應用中造成問題。
 
 -----------------------------------------------------------------------------------
-* ### 1.LEGO 45503 EV3 Medium Servo Motor 
+
+ <img high = 500 width =500 src= "https://img.shields.io/badge/2.LEGO 45503 EV3 Medium Servo Motor -068DA9" >
+
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/%E6%A8%82%E9%AB%98%E9%A6%AC%E9%81%94.jpg)
 
 | 項目   | 數值 | 
@@ -46,7 +53,8 @@
 <br>
 <br>
 
-* ### 2.GA12-N20
+ <img high = 200 width =200 src= "https://img.shields.io/badge/3.GA12 N20 -068DA9" >
+ 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/G12-N20%E5%9C%96%E7%89%87.jpeg)
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/21645312888323_213.jpg)
@@ -61,17 +69,30 @@
 <br>
 <br>
 
-# ⚠結論:⚠
+ <img high = 350 width =350 src= "https://img.shields.io/badge/⚠結論⚠ -068DA9" >
+ 
 >![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-15%20143202.png)
 >![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-07-15%20143147.png)
->為了使機身更小、更輕，我們選擇了將 ***GA12-N20*** 馬達作為後輪的動力來源。<br>
->這款馬達完美符合我們的需求，同時也減少了所需的電池數量，從而降低了整體重量。<br>
+>### 為了使機身更小、更輕，我們選擇了將 ***GA12-N20*** 馬達作為後輪的動力來源。<br>
+>### 這款馬達完美符合我們的需求，同時也減少了所需的電池數量，從而降低了整體重量。<br>
 <br>
 <br>
 
-## 轉向控制結構 
-**我們列出了兩種方案型比較。**
-### 1.伺服馬達搭配連桿轉向
+-----------------------------------------------------------------------------------
+
+<br>
+<br>
+
+ <img high = 350 width =350 src= "https://img.shields.io/badge/⬇-轉向控制結構  -CD1818" >
+<br>
+<br>
+
+## 我們列出了兩種方案型比較。
+
+<br>
+<br>
+
+ <img high = 380 width =380 src= "https://img.shields.io/badge/ 1.伺服馬達搭配連桿轉向  -CD1818" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%BD%89%E5%90%91%E7%B5%90%E6%A7%8B/%E9%80%A3%E6%A1%BF%E8%BD%89%E5%90%91%E7%B5%90%E6%A7%8B%E5%9C%96.png)
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/SG-90.png)
@@ -85,21 +106,22 @@
 >2.轉速限制：伺服馬達的轉速通常較低，不適合需要高速運動的應用。<br>
 >3.耐久性限制：由於其經濟實惠的設計，伺服馬達可能在長時間或高負載運行下的耐久性較差。<br>
 
------------------------------------------------------------------------------------
-* ### 2.遙控車轉向
+<br>
+<br>
+
+ <img high = 230 width =230 src= "https://img.shields.io/badge/ 2.遙控車轉向  -CD1818" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E8%BD%89%E5%90%91%E7%B5%90%E6%A7%8B/%E5%B0%BA%E6%A2%9D%E8%BD%89%E5%90%91%E7%B5%90%E6%A7%8B%E5%9C%96.JPG)
 ### 優點:
-1.成本相對於伺服馬達低。
-
-2.不需要自己設計結構。
+>1.成本相對於伺服馬達低。<br>
+>2.不需要自己設計結構。
 ### 缺點:
+>1.遙控車採用的馬達是一般的直流馬達，轉向結構搭配齒條控制，因此無法精準的控制角度。
+>
 
-1.遙控車採用的馬達是一般的直流馬達，轉向結構搭配齒條控制，因此無法精準的控制角度。
-
------------------------------------------------------------------------------------
-# 結論 
+ <img high = 350 width =350 src= "https://img.shields.io/badge/⚠結論⚠ -CD1818" >
 由上文分析，我們希望機器能夠保持我們希望他走的方位，因此較注重精準度，因此**第一種方案**相對比較好。因此我們開始設計我們機構。
+
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E4%BC%BA%E6%9C%8D%E8%BD%89%E6%8E%A5%E9%A0%AD.png)
 
 -----------------------------------------------------------------------------------
