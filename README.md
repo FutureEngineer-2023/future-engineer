@@ -72,7 +72,7 @@
  
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/G12-N20%E5%9C%96%E7%89%87.jpeg)
 
-![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/21645312888323_213.jpg)
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/GA12-N20%E6%95%B8%E6%93%9A.png)
 
 ## 優點：
 >2.高轉矩：儘管體積小，GA12-N20 馬達提供相對較高的轉矩輸出，適用於需要一定力矩的應用。<br>
@@ -263,8 +263,10 @@
 
 -----------------------------------------------------------------------------------------------
 <br>
+<br>
+<br>
 
- <img high = 60 width =60 src= "https://img.shields.io/badge/ 底盤設計 -F8FDCF" >
+ <img high = 200 width =200 src= "https://img.shields.io/badge/ 底盤設計 -F8FDCF" >
 
 起初我們試著採用**遙控車的底盤**進行改裝，雖然方便省時，但是遙控車的轉向不夠達到我們的要求，也不容易改裝。
 接著我們改用**樂高積木**直接組裝出一台，跟遙控車相比，樂高自由調整度更高，能夠設計出更好的轉向，還可以用內建的馬達進行控制，只可惜組裝完成的體積跟重量太大，導致速度跟敏捷無法有好的效果。
