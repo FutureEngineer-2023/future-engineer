@@ -5,8 +5,8 @@
 ### 為了能夠實現基本的移動，我們的配置是:
 
 > <img high = 100 width =100 src= "https://img.shields.io/badge/後輪動力 - 78C1F3" > 
-> <img high = 130 width =130 src= "https://img.shields.io/badge/轉向控制結構  -9BE8D8" >
-> <img high = 110 width =110 src= "https://img.shields.io/badge/ 馬達驅動板 -E2F6CA" >
+> <img high = 140 width =140 src= "https://img.shields.io/badge/轉向控制結構  -9BE8D8" >
+> <img high = 120 width =120 src= "https://img.shields.io/badge/ 馬達驅動板 -E2F6CA" >
 > <img high = 60 width =60 src= "https://img.shields.io/badge/ 底盤 -F8FDCF" >
  ------------------------------------------------------------------------------------
  
@@ -22,6 +22,7 @@
 ## 我們選用了幾種馬達，如下:
  <br>
  <br>
+ 
  <img high = 200 width =200 src= "https://img.shields.io/badge/1.JGA25_371- 78C1F3" >
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/JGA25-371%E5%9C%96%E7%89%87.jpg)
@@ -292,9 +293,9 @@
 
 -----------------------------------------------------------------------------------
 ## 總結 
-
-轉速
-扭矩
+### 電池電壓:約8V
+### 轉速: 666 rpm/m <br>
+### 扭矩: 1.86kg.cm <br>
 <br>
 <br>
 <br>
