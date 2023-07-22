@@ -356,13 +356,8 @@
 <br>
 <br>
 
-<img high = 200 width =200 src= "https://img.shields.io/badge/主控板 -1D5B79" > 
+ <img high = 250 width =250 src= "https://img.shields.io/badge/穩壓晶片 -F4D160" >
 
-<img high = 150 width =150 src= "https://img.shields.io/badge/Krduino -1D5B79" > 
-
-![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%85%B6%E4%BB%96/%E4%B8%BB%E6%A9%9F%E6%9D%BF%E8%B3%87%E6%96%99.jpg)<br>
-
-## 穩壓晶片
 ### [線性穩壓]
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%85%B6%E4%BB%96/%E7%B7%9A%E6%80%A7%E7%A9%A9%E5%A3%93%E5%9C%96%E7%89%87.png)
 
@@ -378,6 +373,15 @@
 
 ### 原本們採用了LM2596S這顆穩壓器，但後來我們之所以選擇主機板上的穩壓是因為它足以應付我們的電壓，能夠節省空間。
 <br>
+<br>
+<br>
+
+<img high = 200 width =200 src= "https://img.shields.io/badge/主控板 -1D5B79" > 
+
+<img high = 150 width =150 src= "https://img.shields.io/badge/Krduino -1D5B79" > 
+
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%85%B6%E4%BB%96/%E4%B8%BB%E6%A9%9F%E6%9D%BF%E8%B3%87%E6%96%99.jpg)<br>
+
 <br>
 <br>
 
