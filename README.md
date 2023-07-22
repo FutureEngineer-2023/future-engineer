@@ -363,13 +363,13 @@
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%85%B6%E4%BB%96/%E4%B8%BB%E6%A9%9F%E6%9D%BF%E8%B3%87%E6%96%99.jpg)<br>
 
 ## 穩壓晶片
-### 線性穩壓
+### [線性穩壓]
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%85%B6%E4%BB%96/%E7%B7%9A%E6%80%A7%E7%A9%A9%E5%A3%93%E5%9C%96%E7%89%87.png)
 
 **AMS117**、**78m05**
 這種穩壓器通常適用於輸出電壓相對較低的應用，它通過將**多餘的輸入電壓轉化為熱量來實現穩壓**。儘管簡單且成本相對較低，但效率較低，特別是在輸入電壓與輸出電壓之間的差異較大時。
 
-### 脈寬調製穩壓
+### [脈寬調製穩壓]
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%85%B6%E4%BB%96/LMS2596S%E7%A9%A9%E5%A3%93%E5%99%A8.jpg)
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E5%85%B6%E4%BB%96/PWM%E7%A9%A9%E5%A3%93.jpg)
