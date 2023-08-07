@@ -278,6 +278,7 @@
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E5%89%8D%E9%9D%A2.png)
 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%BA%95%E7%9B%A4%E5%BE%8C%E9%9D%A2.png)
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-08-07%20204200.png)
 ## 差速器 
 ### 我們採用樂高的6573的差速器。
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E5%B7%AE%E9%80%9F%E5%99%A8.png)
@@ -512,6 +513,7 @@
 總而言之，我們的感應器及電源應用的篇章是本次報告中重要的一部分，通過對顏色感應器、陀螺儀感應器和視覺感應器的深入研究，我們成功實現了自走車的精確控制和穩定運行。這些感應器的應用不僅提升了我們自走車的性能，同時也拓展了我們對於自動控制和感應技術的認識和應用能力。<br>
  <br>
  <br>
+ ----------------------------------------------------------------------------------------------
  
 ### 接線示意圖 
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E9%9B%BB%E6%BA%90%E5%92%8C%E6%84%9F%E6%B8%AC%E5%99%A8%E7%AE%A1%E7%90%86/%E5%85%B6%E4%BB%96/%E6%8E%A5%E7%B7%9A%E5%9C%96.png)
@@ -522,7 +524,46 @@
 
 # 障礙管理
 
-# 車輛圖片
+# 總結
+<Br>
 
-## 正試圖
-![image]()  
+## 零件說明:
+* ### 主力馬達
+  #### GA12-N20
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/%E9%A6%AC%E9%81%94%E5%9C%96%E7%89%87/G12-N20%E5%9C%96%E7%89%87.jpeg)
+* ### 轉向馬達
+  #### 伺服馬達
+![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/SG-90.png)
+* ### 3D列印
+  #### 底盤設計
+  ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%B8%BD%E7%B5%90/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-08-07%20191957.png)
+  #### 其他配件
+  
+  ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%B8%BD%E7%B5%90/%E8%93%8B%E5%AD%90(%E7%B8%BD%E7%B5%90).png)
+  ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%B8%BD%E7%B5%90/%E4%BC%BA%E6%9C%8D%E8%BD%89%E6%8E%A5%E9%A0%AD%20(%E7%B8%BD%E7%B5%90).png)
+  ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%B8%BD%E7%B5%90/%E9%BD%92%E8%BC%AA-%E7%B8%BD%E7%B5%90.png)
+  
+* ### 主控版
+  #### Krduino
+  ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%B8%BD%E7%B5%90/Krduino-%E7%B8%BD%E7%B5%90.jpg)
+* ### 電源
+  #### 14500鋰電池
+  ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E9%9B%BB%E6%BA%90%E5%92%8C%E6%84%9F%E6%B8%AC%E5%99%A8%E7%AE%A1%E7%90%86/%E9%8B%B0%E9%9B%BB%E6%B1%A0%E5%9C%96%E7%89%87.jpg)
+* ### 陀螺儀感應器
+ #### MPU6050 
+ ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%B8%BD%E7%B5%90/mpu6050.jpg)
+* ### 顏色感應器
+  #### TCS34725
+ ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E9%9B%BB%E6%BA%90%E5%92%8C%E6%84%9F%E6%B8%AC%E5%99%A8%E7%AE%A1%E7%90%86/%E9%A1%8F%E8%89%B2%E6%84%9F%E6%87%89%E5%99%A8/tcs34725.jpg)
+* ### 視覺感應器
+  #### ESP32 cam
+  ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%B8%BD%E7%B5%90/ESP32%20cam.jpg)
+
+## 感想
+
+>這項比賽為我們提供了一個寶貴的機會，讓我們在設計、製作和控制一台能夠智能地避開障礙物並完成繞圈任務的小車方面獲得寶貴的經驗。透過我們在電子感應器技術、程式編寫、3D建模、電子元件接線方式以及>馬達控制等領域的努力，我們成功地將多種知識和技術融合在一起，打造出一個能夠以智能方式避開障礙物的小車，並以出色的表現完成了比賽任務。<br>
+><br>
+>在報告中，我們詳細介紹了我們所選用的各個零部件，並解釋了我們選擇這些元件的原因。這些決策不僅是基於技術性能和可靠性，還體現了我們對於解決方案的深入思考和全面考慮。此外，我們也展示了我們在
+>元件接線和控制方式方面的專業知識，以及如何通過程式編寫實現車輛的智能控制。<br>
+><br>
+>通過這個項目，我們學到了如何將理論知識轉化為實際應用，解決複雜的問題並實現創新。我們的成果不僅體現了我們的技術能力，還體現了我們的團隊協作和解決問題的能力。我們對於在這個比賽中取得的成就感>到非常自豪，並將這次寶貴的經驗應用於未來的學習和工作中。
