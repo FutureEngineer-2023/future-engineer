@@ -513,6 +513,8 @@
 總而言之，我們的感應器及電源應用的篇章是本次報告中重要的一部分，通過對顏色感應器、陀螺儀感應器和視覺感應器的深入研究，我們成功實現了自走車的精確控制和穩定運行。這些感應器的應用不僅提升了我們自走車的性能，同時也拓展了我們對於自動控制和感應技術的認識和應用能力。<br>
  <br>
  <br>
+
+
  ----------------------------------------------------------------------------------------------
  
 ### 接線示意圖 
@@ -523,6 +525,12 @@
 <br>
 
 # 障礙管理
+# 影片 
+## 點及圖片:
+
+[![IMAGE ALT TEXT](https://i9.ytimg.com/vi_webp/hhIaxmtyuTQ/mq2.webp?sqp=CPzXw6YG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUihCMA8=&rs=AOn4CLD2OaBQKYADi6BXN7D0OPNG848miw)](https://www.youtube.com/watch?v=hhIaxmtyuTQ)
+
+[![IMAGE ALT TEXT](https://i9.ytimg.com/vi_webp/33V_9r6SBaM/mq1.webp?sqp=CPzXw6YG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUCg6MA8=&rs=AOn4CLAQ5dklI1tupUUrlQtkgRFyEl7BZA)](https://www.youtube.com/watch?v=33V_9r6SBaM)
 
 # 總結
 <Br>
