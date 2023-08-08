@@ -136,7 +136,7 @@
 <br>
  <img high = 250 width =250 src= "https://img.shields.io/badge/⚠小結⚠ -9BE8D8" >
  
-## 由上文分析，我們希望機器能夠保持我們希望他走的方位，因此較注重精準度，<br>因此[**第一種方案**]相對比較好。因此我們開始設計機構。<br>
+## 由上文分析，我們希望機器能夠保持我們希望他走的方位，因此較注重精準度，<br>因此[**第一種方案**]相對比較好。因此我們開始用樂高與3D列印設計機構。<br>
 ### 為了讓我們伺服馬達可以連接樂高於是自己畫了一個。
 ![image](https://github.com/yy0106yy/future-engineer/blob/main/%E7%A7%BB%E5%8B%95%E6%80%A7%E7%AE%A1%E7%90%86Mobility%20Managemen/3D%E5%BB%BA%E6%A8%A1%E5%9C%96%E7%89%87/%E4%BC%BA%E6%9C%8D%E8%BD%89%E6%8E%A5%E9%A0%AD.png)
 ### 組裝後⬇️
@@ -526,11 +526,11 @@
 
 # 障礙管理
 # 影片 
-## 點及圖片:
+## 連結:
 
-[![IMAGE ALT TEXT](https://i9.ytimg.com/vi_webp/hhIaxmtyuTQ/mq2.webp?sqp=CPzXw6YG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUihCMA8=&rs=AOn4CLD2OaBQKYADi6BXN7D0OPNG848miw)](https://www.youtube.com/watch?v=hhIaxmtyuTQ)
+https://www.youtube.com/watch?v=hhIaxmtyuTQ
 
-[![IMAGE ALT TEXT](https://i9.ytimg.com/vi_webp/33V_9r6SBaM/mq1.webp?sqp=CPzXw6YG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUCg6MA8=&rs=AOn4CLAQ5dklI1tupUUrlQtkgRFyEl7BZA)](https://www.youtube.com/watch?v=33V_9r6SBaM)
+https://www.youtube.com/watch?v=33V_9r6SBaM
 
 # 總結
 <Br>
