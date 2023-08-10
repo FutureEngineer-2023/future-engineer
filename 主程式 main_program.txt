@@ -1,0 +1,225 @@
+#include "MPU.h"
+#include "SC.h"
+#include "Servo.h"
+#include "US.h"
+#include "L.h"
+#include "Camera.h"
+
+#define dir 4
+#define pwm 5
+
+void Motor(int spd) {
+  analogWrite(pwm , abs(spd) * 5 >> 1 );
+  digitalWrite(dir, spd > 0 ? 0 : 1);
+}
+
+int MpuZGyroRel(int MpuZ) {
+  int Z = MpuZGyro() - MpuZ;
+  while (Z > 180) {
+    Z = Z - 360;
+  }
+  while (Z < -180) {
+    Z = Z + 360;
+  }
+  return Z;
+}
+
+int buttom() {
+  return digitalRead(A2);
+}
+
+int i = 0;
+int rl = 0;
+/*
+    感應器初始化
+*/
+void setup() {
+  LEDinit();
+  pinMode(14, INPUT);
+  Serial.begin(19200);
+  delay(100);
+  mpuInit(-3484, 1587, 2020, 12, -75, 28);
+  LEDset(1, 0, 0);
+  SCinit();
+  LEDset(1, 1, 0);
+  USInit();
+  ServoInit(13, 550, 2480);
+  LEDset(1, 1, 1);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  tone(A1, 1234, 500);
+  delay(200);
+  noTone(A1);
+  CameraSet(1, 14, 0, 0, 8, 10);
+  CameraSet(2, 4, 12, 0, 15, 15);
+  ServoDeg(45);
+  delay(500);
+  while (Serial.available()) {
+    char a = Serial.read();
+  }
+  ServoDeg(0);
+  while (buttom() == 0);
+  LEDset(0, 0, 0);
+}
+int lastcam = 0;
+
+int robotRunCw = 0;
+static int gyroTargetDeg = 0;
+int red = 0;
+int c = 0;
+int first = 0;
+void loop() {
+  /*
+    往前直到看到橘/藍線，判斷左右轉
+  */
+  step1();
+  if (robotRunCw > 0) {
+    rl = 90;
+  } else {
+    rl = -90;
+  }
+  /*
+      往前直到看到橘/藍線，轉90度，重複7次
+  */
+  for (int i = 0; i < 7; i++) {
+    gyroTargetDeg += rl;
+    Turn90();
+    Forward() ;
+  }
+
+  if (b == 0) {
+    first = 1;
+  }
+  gyroTargetDeg += rl;
+  Turn90();
+  /*
+    如果最後看到的障礙物是紅色，往前走一段，在向後轉180度
+  */
+  if (red == 1) {
+    long   t = millis() + 2000;
+    while (!((millis() > t))) {
+      CamTurn();
+      Motor(100);
+    }
+    gyroTargetDeg -= 179;
+    Turn90();
+    rl *= -1;
+    robotRunCw *= -1;
+  }
+  Forward() ;
+  if (robotRunCw > 0) {
+    rl = 90;
+  } else {
+    rl = -90;
+  }
+  for (int i = 0; i < 3; i++) {
+    gyroTargetDeg += rl;
+    Turn90();
+    Forward() ;
+  }
+  gyroTargetDeg += rl;
+  Turn90();
+  long   t = millis() + 2500;
+  while (!((millis() > t))) {
+    CamTurn();
+    Motor(100);
+  }
+  Motor(0);
+  while (1);
+}
+void step1() {
+  lastcam = 0;
+  Motor(100);
+
+  //blue 195, orange 17
+  int color = GethueOut();
+  /*
+   往前走避障，觀察前面是否有紅色障礙物，直到看到藍/橘線
+  */
+  while (!((color > 5 && color < 30) || (color > 170 && color < 220))) {
+    color = GethueOut();
+    CamTurn();
+    if (CameraGet(1)) {
+      red = 1;
+      first = 1;
+    }
+  }
+  if (GethueOut() > 5 && GethueOut() < 30) {
+    robotRunCw = 1;
+  } else if (GethueOut() > 170 && GethueOut() < 220) {
+    robotRunCw = -1;
+
+  }
+  long   t = millis() + 700;
+  while (!((millis() > t))) {
+    Motor(100);
+    ServoDeg(MpuZGyroRel(gyroTargetDeg + lastcam * 2) * 1.1);
+  }
+
+  Motor(0);
+  // Serial.println();
+}
+
+void CamTurn() {
+  if (CameraGet(1) &&  CameraGet(2) < 95 && CameraGet(2) > 20 && CameraGet(5) && CameraGet(6) < 95 && CameraGet(6) > 20) {
+    if (CameraGet(2) > CameraGet(6)) {
+      LEDset(1, 0, 0);
+      ServoDeg((140 - CameraGet(5)) * 0.6);
+      lastcam = 5;
+    } else {
+      LEDset(0, 0, 1);
+      ServoDeg((20 - CameraGet(1)) * 0.6);
+      lastcam = -5;
+    }
+  } else {
+    if (CameraGet(1) &&  CameraGet(2) < 100 && CameraGet(2) > 30) {
+      LEDset(0, 0, 1);
+      ServoDeg((20 - CameraGet(1)) * 0.6);
+      lastcam = -5;
+      if (first == 1) {
+        red = 1;
+      }
+    } else if (CameraGet(5) &&  CameraGet(6) < 100 && CameraGet(6) > 30) {
+      LEDset(1, 0, 0);
+      ServoDeg((150 - CameraGet(5)) * 0.6);
+      lastcam = 5;
+      if (first == 1) {
+        red = 0;
+      }
+    } else {
+      LEDset(0, 0, 0);
+      ServoDeg(MpuZGyroRel(gyroTargetDeg + lastcam) * 1.2);
+    }
+  }
+}
+
+void Turn90() {
+  long t = millis() + 800;
+
+  Motor(100);
+
+  while (!(abs(MpuZGyroRel(gyroTargetDeg)) < 5 && millis() > t)) {
+    CamTurn();
+  }
+  Motor(0);
+}
+
+void Forward() {
+  lastcam = 0;
+  int color = GethueOut();
+  long t = millis() + 800;
+  Motor(100);
+  while (Serial.available()) {
+    char a = Serial.read();
+  }
+  while (!((robotRunCw > 0 ? (color > 5 && color < 30) : (color > 170 && color < 220)) && (millis() > t))) {
+    color = GethueOut();
+    CamTurn();
+  }
+  t = millis() + 700;
+  while (!((millis() > t))) {
+    Motor(100);
+    ServoDeg(MpuZGyroRel(gyroTargetDeg + lastcam * 2) * 1.1);
+  }
+  Motor(0);
+}
