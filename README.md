@@ -524,15 +524,6 @@
 <br>
 <br>
 <br>
-
-
-# 影片 
-### 連結:
-
-https://www.youtube.com/watch?v=hhIaxmtyuTQ
-
-https://www.youtube.com/watch?v=33V_9r6SBaM
-<br>
 <br>
 # 車輛照片
 ### 上試圖:
@@ -587,3 +578,11 @@ https://www.youtube.com/watch?v=33V_9r6SBaM
 >元件接線和控制方式方面的專業知識，以及如何通過程式編寫實現車輛的智能控制。<br>
 ><br>
 >通過這個項目，我們學到了如何將理論知識轉化為實際應用，解決複雜的問題並實現創新。我們的成果不僅體現了我們的技術能力，還體現了我們的團隊協作和解決問題的能力。我們對於在這個比賽中取得的成就感>到非常自豪，並將這次寶貴的經驗應用於未來的學習和工作中。
+
+
+# 影片 
+### 連結:
+
+https://www.youtube.com/watch?v=hhIaxmtyuTQ
+
+https://www.youtube.com/watch?v=33V_9r6SBaM
