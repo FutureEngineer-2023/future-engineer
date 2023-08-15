@@ -198,7 +198,6 @@ void Turn90() {
   long t = millis() + 800;
 
   Motor(100);
-
   while (!(abs(MpuZGyroRel(gyroTargetDeg)) < 5 && millis() > t)) {
     CamTurn();
   }
@@ -213,6 +212,9 @@ void Forward() {
   while (Serial.available()) {
     char a = Serial.read();
   }
+/*
+走到直到看到藍/橘線
+*/
   while (!((robotRunCw > 0 ? (color > 5 && color < 30) : (color > 170 && color < 220)) && (millis() > t))) {
     color = GethueOut();
     CamTurn();
