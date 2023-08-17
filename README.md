@@ -322,6 +322,8 @@
 |扭矩|1.24	kg.cm|
 |迴轉半徑|3.5cm|
 
+![image](https://github.com/FutureEngineer-2023/future-engineer/blob/main/%E8%BB%8A%E8%BC%9B%E5%9C%96%E7%89%87/%E8%BF%B4%E8%BD%89%E5%8D%8A%E5%BE%91.jpg)
+
 <br>
 <br>
 
